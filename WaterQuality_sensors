@@ -8,15 +8,12 @@ float *turbidity;
 float Value=0;
  
 // WiFi
-//const char *ssid = "HUAWEI-1852"; // Enter your WiFi name
-//const char *password = "8JT36YGHN50";  // Enter WiFi password
-// WiFi
-const char *ssid = "JGALAN"; // Enter your WiFi name
-const char *password = "L0r3nz0$!!";  // Enter WiFi password
+//const char *ssid = ; // Enter your WiFi name
+//const char *password = ;  // Enter WiFi password
 
 // MQTT Broker
 const char *mqtt_broker = "broker.emqx.io";
-const char *topic1 = "vic/water/turbidity";
+const char *topic1 = "vic/water/tbd";
 const char *topic2 = "vic/water/ph";
 const char *mqtt_username = "emqx";
 const char *mqtt_password = "public";
